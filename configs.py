@@ -5,17 +5,17 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "YOUR API"))
-    API_HASH = os.getenv("API_HASH", "YOUR API HASH")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "ENTRR BOT TOKEN")
-    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "YOUR BOT NAME")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "ENTER STRING")
+    API_ID = int(os.getenv("API_ID", "21560317"))
+    API_HASH = os.getenv("API_HASH", "c171065f7c42504884ebf768329cbfae")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "5651036083:AAEl67Rz7On6tR371cmagY9F17sgCS3c8Q8")
+    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "MDISK MOVIE LINK SEARCH BOT")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOIQBu32TikOMt2Ut0rVtojGkzApRKrc5RF0M4cNTG1BmYPx7ewTlPRAKepx4ha_abEodp7zw95gdUt7NLAYDNP-K8DsOuAfSPsqrjlT06QZSHFVTRetvA4sQmA7G3cv7LZZe0pD61VXnzYpObLd9AHrQ4B8pOnwLGzFXi1pa-Ze5zdf6rlrQr4LELjbmrNnIXnn49l6qhztvL2UQa6SfwK5WEr8AJmH6HEPutLJQ9c2TGMgpvOcOCo7Y7Lls6Gzs6SWN9milm9snpxVDwGcI0YIdiC6gkDIdPn_jHOMvV6suxibvX7bWm0zCYBrkdwNYTvqE3oZCx1HLz3xg6-iZbxRIhsQ=")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001758451186")) 
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "YOUR BOT USERNAME")
-    BOT_OWNER = int(os.getenv("BOT_OWNER", "YOUR OWN ID "))
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "@MDISK_MOVIES_LINK_SEARCH_BOT")
+    BOT_OWNER = int(os.getenv("BOT_OWNER", "5647468174"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "DEMIGOD_AKSHAY")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "DEMIGOD_TRICKY")
-#    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
+#    GROUP_USERNAME = os.getenv("DEMIGOD_TRICKY_SUPPORT")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
 
 I ᴀᴍ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Rᴏʙᴏᴛ 🔍.
@@ -29,13 +29,13 @@ Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬**""" )
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ.
 
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅""" )
-    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "CHANNEL ID")
-    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://postbot:postbot@cluster0.ouwne8q.mongodb.net/?retryWrites=true&w=majority")
+    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "DEMIGOD_TRICKY")
+    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://demigod_akshay:<demigodakshay@1982>@cluster0.hprw7ua.mongodb.net/?retryWrites=true&w=majority")
     LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001650513986"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 20))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
     UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "DEMIGOD_TRICKY")
-    FORCE_SUB = os.getenv("DEMIGOD_NETWORK", "False")
+    FORCE_SUB = os.getenv("DEMIGOD_TRICKY", "False")
     AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 180))
     MDISK_API = os.getenv("MDISK_API", "Cp4CAsHAyqVaWyFp9A1I")
     VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "31"))
