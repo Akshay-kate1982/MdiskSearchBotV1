@@ -29,7 +29,7 @@ Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬**""" )
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ.
 
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅""" )
-    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "DEMIGOD_TRICKY")
+    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001691629589")
     DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://demigod_akshay:<demigodakshay@1982>@cluster0.hprw7ua.mongodb.net/?retryWrites=true&w=majority")
     LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001650513986"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 20))
